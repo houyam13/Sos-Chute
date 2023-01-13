@@ -1,2 +1,61 @@
 					cahier des charges
 
+Projet : SOS chute
+Tâche : détecter les chutes grâce aux capteurs, cahier des charges, codes
+Matériel : carte rspi4, accéléromètre, smartphone, BLE, GPS, buzzer, EMIC2, module 3G
+Détails prix avec un budget approximatifs:
+rspi4 =>180€ (BLE intégré)
+Accéléromètre =>10€
+GPS=>30€
+Buzzer=>6€
+Emic2=>167€
+Module3G=>50€
+Prix approximatif= 500€
+Cahier des charges: 
+Notre projet «SOS Chute» consiste a détecter les chutes des personnes âgées ou des personnes malades a l’aide des capteurs sur l’objet connecté.
+L’objet connecté va envoyer les informations a la personnes nécessaire «infirmier/famille» pour aider la personne dans le besoin 
+Contrainte économique:
+- pas de smartphones
+environ 500 euro
+Contraintes performances:
+-détecter les mouvements/localisation.
+-envoi de SMS/Appel/mail.
+-mode dégrade lors de l’absence de réseau.
+-synthèse vocale exprimant message rassurant
+-prise en compte de la demande par un voyant 
+-Activation et désactivation du module GPS dans le but d’économiser de l’énergie 
+-signal audible a 15m buzzer
+	
+
+Contraintes d’utilisations:
+		-le téléphones toujours allumé
+-le bon fonctionnement et la simple utilisation de l’application embarquée.
+-le BLE doit être toujours activé,
+GANTT:
+	-Compréhension du CDC
+	-établir diagramme UML
+	-Validation R1 Prof
+	-Programme cœur appli BLE 	
+	-Recherche doc node JS
+	-Tester liaison série Rpi4
+	-Emic2
+	-Test GPIO voyant
+	-Test GPS
+	-Recherche doc accéléromètre 
+
+
+A savoir:
+	-MPU6050 => liaison pour l’accéléromètre
+	-rspi4 =>rupteur
+	-liaison entre rspi4 et le smartphone c’est le BLE
+	Convertisseur USB RS232
+Se Documenter:
+	-Node Js
+	-Rspi4
+	-BLE
+	-Emic2
+Fournisseurs:
+	-Radiospares
+	-Gotronic
+Espace de Travail :
+	-Github
