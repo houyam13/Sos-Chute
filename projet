@@ -59,3 +59,5 @@ Fournisseurs:
 	-Gotronic
 Espace de Travail :
 	-Github
+il faut savoir que la personne est un dans un centre de soins donc lors de la chute elle va appuyer sur le buzzer qui va permettre denvoyer un sms a l'infermiere pour lui permettre de la prevenir grace au bluetooth(100m)
+	une fois l'infermier est informé le patient recoit une notifcations pour le rassurer de la part de l'infermier 
